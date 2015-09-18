@@ -1,0 +1,47 @@
+[{
+    "caption": "YXPlugin",
+    "id": "YXPlugin",
+    "children":
+    [
+        { 
+        "caption": "Markdown",
+        "children":
+            [
+            
+                { 
+                    "caption": "Reformat Table",
+                    "command": "table_reformat",
+                },
+                { 
+                    "caption": "Excel to Table",
+                    "command": "excel_to_table",
+                },
+            ]
+        },
+        { 
+            "caption": "Remove",
+            "children":
+            [
+                { 
+                    "caption": "Leading spaces",
+                    "command": "remove",
+                    "args": {"trim_type": 1},
+                },
+                { 
+                    "caption": "Trailing spaces",
+                    "command": "remove",
+                    "args": {"trim_type": 2},
+                },
+                { 
+                    "caption": "Leading/Trailing spaces",
+                    "command": "remove",
+                    "args": {"trim_type": 0},
+                },
+                { 
+                    "caption": "Blank Lines",
+                    "command": "remove_blank_lines",
+                }
+            ]
+        }
+    ]
+}]
